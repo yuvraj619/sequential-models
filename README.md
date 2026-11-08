@@ -12,17 +12,17 @@ sequential-models/
 ├── requirements.txt
 ├── .gitignore
 ├── docs/
-│   └── notation.md
+│   ├── notation.md
+│   └── development_hardware.md
 ├── datasets/
 │   └── README.md
 ├── models/
 │   ├── README.md
 │   ├── 01_rnn/
 │   ├── 02_lstm/
-│   ├── 03_gru/
-│   ├── 04_encoder_decoder/
-│   ├── 05_attention/
-│   └── 06_transformer/
+│   ├── 03_encoder_decoder/
+│   ├── 04_attention/
+│   └── 05_transformer/
 └── results/
     └── README.md
 ```
@@ -49,6 +49,10 @@ The NumPy-from-scratch and PyTorch versions will both be included where educatio
 - **Tiny Shakespeare:** small text corpus for Transformer language modeling.
 
 Dataset links, loading examples, license/source notes, and instructions for accessing data from Jupyter are maintained in [datasets/README.md](datasets/README.md). Downloaded datasets are stored locally and excluded from Git.
+
+## Development hardware
+
+The primary development machine specifications and practical resource constraints are documented in [docs/development_hardware.md](docs/development_hardware.md). Individual experiments should still record the hardware and software actually used.
 
 ## Setup
 
