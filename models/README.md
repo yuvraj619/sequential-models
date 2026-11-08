@@ -9,7 +9,7 @@ Each architecture has its own chapter folder. We will add the folders and implem
 | `01_rnn/` | Recurrent Neural Network | IMDb sentiment classification |
 | `02_lstm/` | Long Short-Term Memory | IMDb sentiment classification |
 | `03_gru/` | Gated Recurrent Unit | IMDb sentiment classification |
-| `04_encoder_decoder/` | Encoder–Decoder | English-to-French translation |
+| `03_encoder_decoder/` | Encoder–Decoder | English-to-French translation |
 | `05_attention/` | Attention | English-to-French translation |
 | `06_transformer/` | Transformer | Tiny Shakespeare language modeling |
 
