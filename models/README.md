@@ -8,12 +8,9 @@ Each architecture has its own chapter folder. We will add the folders and implem
 |---|---|---|
 | `01_rnn/` | Recurrent Neural Network | IMDb sentiment classification |
 | `02_lstm/` | Long Short-Term Memory | IMDb sentiment classification |
-| `03_gru/` | Gated Recurrent Unit | IMDb sentiment classification |
 | `03_encoder_decoder/` | Encoder–Decoder | English-to-French translation |
-| `05_attention/` | Attention | English-to-French translation |
-| `06_transformer/` | Transformer | Tiny Shakespeare language modeling |
-
-RNN, LSTM, and GRU will use the same data split and evaluation protocol to make their comparison meaningful.
+| `04_attention/` | Attention | English-to-French translation |
+| `05_transformer/` | Transformer | Tiny Shakespeare language modeling |
 
 ## What belongs inside a chapter?
 
@@ -43,6 +40,6 @@ A chapter may contain the following sections. Add only what is needed for that a
 - **tests/:** shape checks, numerical gradient checks where relevant, and model behavior tests.
 - **README.md:** goals, dataset source, how to run the chapter, and actual measured results.
 
-NumPy implementations and manual gradients are especially useful for understanding RNN, LSTM, and GRU internals. PyTorch implementations will show the practical training workflow. For later models, we will choose implementation depth based on what best teaches the architecture.
+NumPy implementations and manual gradients are especially useful for understanding recurrent model internals. PyTorch implementations will show the practical training workflow. For later models, we will choose implementation depth based on what best teaches the architecture.
 
 The notebook is the main learning document; the other files support reuse, testing, and clear documentation. We will not create empty placeholder files.
